@@ -1,0 +1,91 @@
+.board {
+  text-align: center;
+}
+
+.board .leaderboard {
+  margin-bottom: 1em;
+}
+
+.board .duration {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.board .duration > button {
+  border: 1px solid var(--black-color);
+  padding: 0.5em 2em;
+  border-radius: 50px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.board .duration > button:hover {
+  background-color: var(--black-color);
+  color: var(--lightGray-color);
+}
+
+.active {
+  background-color: var(--black-color);
+  color: var(--lightGray-color);
+}
+
+#profile {
+  margin-top: 3em;
+}
+
+#profile .flex {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1em;
+  text-align: left;
+  margin-bottom: 2em;
+}
+
+#profile .flex .item {
+  display: flex;
+  align-items: center;
+}
+
+#profile .flex img {
+  width: 20%;
+  border-radius: 50%;
+}
+
+#profile .flex .info {
+  padding: 1em;
+}
+
+.text-dark {
+  color: var(--black-color);
+}
+
+.app__add-player {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 0.5rem;
+  button {
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    background-color: var(--secondary-color);
+    border: 1px solid transparent;
+    color: white;
+    &:hover {
+      background-color: var(--lightsecondary-color);
+    }
+  }
+
+  .app__friends {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--lightGray-color);
+    border-radius: 1rem;
+  }
+  .app__friends {
+    transition: 0.5s all ease-in;
+  }
+  .app__friends-icons:hover {
+    color: var(--secondary-color);
+  }
+}

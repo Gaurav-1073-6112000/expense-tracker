@@ -1,0 +1,15 @@
+.app__data {
+  display: flex;
+  margin: 1rem;
+}
+.app__dashborad-info {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid var(--secondary-color);
+  padding: 1rem;
+  border-radius: 5rem;
+}
