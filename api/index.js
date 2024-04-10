@@ -8,7 +8,8 @@ import connectDB from "./config/dbConn.js";
 import corsOptions from "./config/corsOptions.js";
 import { register, income, auth, expense } from "./routes/index.js";
 
-const DB_URI = "mongodb://127.0.0.1:27017/expenseTracker"; //should be in .env
+const DB_URI =
+  "mongodb+srv://iamgauravkha:CpQ4xZr2VWUDBQZA@cluster0.2t48x1t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; //should be in .env
 
 connectDB(DB_URI);
 const PORT = process.env.PORT || 3500;
